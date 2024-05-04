@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+    <style>
+        *{
+            text-align:center;
+        }
+        li{ text-align: left;}
+        button{
+            color: green;
+            background: greenyellow;
+            border: 2px wavy;
+            border-radius: 5%;
+        }
+        h2{
+            color: #ff5e00;
+        }
+    </style>
+</head>
+<body>
+    <h2>Your <b>3</b> wishes🤲 are -:)</h2>
+    
+        <script>
+        
+        var ary= new Array();
+        for(var g=0; g<3; g++){
+            ary[g]= prompt("Write✍️ your wishe :-")
+        }
+               document.write("<ol>");
+            for ( var a=0; a<3 ; a++){
+                document.write("<li>" + ary[a] + "</li>");
+         
+            }
+            
+            document.write("</ol>");
+            
+            function god () {
+                    document.write("<b>Sorry</b><br>God is busy,<br> You can contect to <b>Anant</b>.🙂")
+            }
+    </script>
+    
+    click! and <br>
+    <button onclick="god()" >Send 2 GoD</button>
+     
+</body>
+</html>
