@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+    <style>
+        *{
+            font-size: 2rem;
+            margin-top: 50px;
+        }
+        p{
+            position: fixed;
+            bottom: 0;
+            right: 45px;
+        }
+        
+    </style>
+</head>
+<body align="center">
+
+ <div>  <script>
+        //real username and password 
+        let usern = "admin";
+        let pass ="12345";
+        
+        //getting input by user
+        let inputun = prompt("Enter username:-");
+        let inputpas = prompt("Enter password:-");
+        
+        //matching username and password
+        if( inputun == usern && inputpas == pass ) {
+        //if it's matched
+                document.write("Login Successful");
+        }else {
+        //if it's not matched
+                document.write("Invalid credentials");
+        };
+        
+    </script> </div>
+    
+    <p>
+        <a href="https://github.com/Anant-P">©Anant-P
+        </a>
+    </p>
+</body>
+</html>
