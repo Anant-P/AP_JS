@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+    <style>
+        
+        *{
+            font-size: 1.5rem;
+            margin-top: 50px;
+            text-align: center;
+        }
+        p{
+            position: fixed;
+            bottom: 0;
+            right: 45px;
+        }
+        h1{
+            text-decoration: underline solid black;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <h1>Ticket Bill</h1>
+    
+    <script>
+        
+        var child= 100;
+        var adult= 150;
+        var senior= 120;
+        
+        var c = prompt("Enter numbers of tickets for child:-" ,0);
+        var a = prompt("Enter numbers of tickets for adult:-" ,0);
+        var s = prompt("Enter numbers of tickets for senior:-" ,0);
+        
+            document.write("child- " +child+"x"+c+"="+child*c+
+                "<br>"+ "adult- " +adult+"x"+a+"="+adult*a+
+                "<br>"+ "senior- " +senior+"x"+s+"="+senior*s+
+                "<br>"+ "The total price =");
+          document.write(child*c + adult*a + senior*s );
+    </script>
+    
+    <p>
+        <a href="https://github.com/Anant-P">©Anant-P
+        </a>
+    </p>
+    
+</body>
+</html>
